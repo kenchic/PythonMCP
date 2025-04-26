@@ -16,11 +16,22 @@ Entre las características principales:
 
 ## Estructura básica
 
+La estructura de carpetas y archivos del proyecto está pensada para maximizar la portabilidad y facilitar el desarrollo con Docker y Visual Studio Code (code-server).
+
 ```plaintext
 PythonMCP/
 │
-├── Dockerfile
-├── docker-compose.yml
-├── data/        # Aquí vivirá tu código (montado)
-└── .vscode/     # Persistencia de config/extensions
+├── Dockerfile            # Archivo para construir la imagen personalizada del entorno (Python, code-server, etc)
+├── docker-compose.yml    # Orquestador de servicios y volúmenes en Docker
+├── data/                 # Aquí vivirá tu código (montado)
+└── .vscode/              # Persistencia de config/extensions
+```
 
+Dockerfile y docker-compose.yml
+Se encuentran directamente en la raíz del proyecto. Aquí defines cómo se construye el contenedor y cómo se levantan los servicios, asegurando que cualquier persona pueda clonar el repositorio y ejecutar el entorno con un solo comando.
+
+data/
+Es el directorio donde escribirás y almacenarás tu código fuente de Python y otros archivos del servidor MCP. Este folder se monta como un volumen en Docker, por lo que tus cambios quedan guardados incluso si eliminas o vuelves a crear los contenedores.
+
+.vscode/
+Carpeta usada para persistir configuraciones, settings y extensiones personalizadas de Visual Studio Code (code-server). Así tu entorno de desarrollo se mantiene tal como lo dejes, entre distintos inicios y equipos.
