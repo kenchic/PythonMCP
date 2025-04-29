@@ -31,7 +31,7 @@ PythonMCP/
   Se encuentran en la carpeta docker del repositorio y deben ir directamente en la raíz del proyecto de un equipo. Aquí defines cómo se construye el contenedor y cómo se levantan los servicios, asegurando que cualquier persona pueda clonar el repositorio y ejecutar el entorno con un solo comando.
 
 - **data/**  
-  Es el directorio donde escribirás y almacenarás tu código fuente de Python y otros archivos del servidor MCP. Este folder se monta como un volumen en Docker, por lo que tus cambios quedan guardados incluso si eliminas o vuelves a crear los contenedores.
+  Es el directorio donde escribirás y almacenarás tu código fuente de Python y otros archivos del servidor MCP. Este folder se monta como un volumen en Docker, por lo que tus cambios quedan guardados incluso si eliminas o vuelves a crear los contenedores. Este director es el mismo repositorio que contiene la carpeta docker y el código.
 
 - **.vscode/**  
   Carpeta usada para persistir configuraciones, settings y extensiones personalizadas de Visual Studio Code (code-server). Así tu entorno de desarrollo se mantiene tal como lo dejes, entre distintos inicios y equipos.
