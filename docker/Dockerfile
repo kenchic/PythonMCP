@@ -16,3 +16,7 @@ USER coder
 WORKDIR /home/coder/project
 
 RUN git clone https://github.com/kenchic/PythonMCP.git .
+
+# Dockerfile (añadir al final)
+RUN git config --global user.name "Germán Alvarez" && \
+    git config --global user.email "kecnhic@gmail.com"
