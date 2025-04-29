@@ -1,0 +1,23 @@
+2025-04-26 05:22:19.523 [info] 
+
+
+
+
+2025-04-26 05:22:19.524 [info] Extension host agent started.
+2025-04-26 05:22:19.586 [error] [172.23.0.1][cec1b48b][ExtensionHostConnection] Unknown reconnection token (never seen).
+2025-04-26 05:22:19.998 [error] [172.23.0.1][54b83908][ManagementConnection] Unknown reconnection token (never seen).
+2025-04-26 05:22:21.148 [info] [172.23.0.1][8fc8369f][ManagementConnection] New connection established.
+2025-04-26 05:22:22.029 [info] [172.23.0.1][e9f236e0][ExtensionHostConnection] New connection established.
+2025-04-26 05:22:22.241 [info] [172.23.0.1][e9f236e0][ExtensionHostConnection] <543> Launched Extension Host Process.
+2025-04-26 05:23:54.267 [info] [172.23.0.1][8fc8369f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-26 05:23:54.528 [info] [172.23.0.1][e9f236e0][ExtensionHostConnection] <543> Extension Host Process exited with code: 0, signal: null.
+2025-04-26 05:23:55.585 [info] [172.23.0.1][86343c6c][ManagementConnection] New connection established.
+2025-04-26 05:23:56.384 [info] [172.23.0.1][54c9e3d6][ExtensionHostConnection] New connection established.
+2025-04-26 05:23:56.433 [info] [172.23.0.1][54c9e3d6][ExtensionHostConnection] <1367> Launched Extension Host Process.
+2025-04-26 06:03:58.357 [info] [172.23.0.1][86343c6c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-26 06:03:58.498 [info] [172.23.0.1][54c9e3d6][ExtensionHostConnection] <1367> Extension Host Process exited with code: 0, signal: null.
+2025-04-26 06:04:22.327 [info] [172.23.0.1][b9b4d08f][ManagementConnection] New connection established.
+2025-04-26 06:04:23.315 [info] [172.23.0.1][972b0a62][ExtensionHostConnection] New connection established.
+2025-04-26 06:04:23.324 [info] [172.23.0.1][972b0a62][ExtensionHostConnection] <12417> Launched Extension Host Process.
+2025-04-26 06:09:10.520 [info] [172.23.0.1][b9b4d08f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-26 06:09:10.711 [info] [172.23.0.1][972b0a62][ExtensionHostConnection] <12417> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,7 @@
+2025-04-29 01:54:41.419 [info] [main] Log level: Info
+2025-04-29 01:54:41.419 [info] [main] Validating found git in: "git"
+2025-04-29 01:54:41.419 [info] [main] Using git "2.39.5" from "git"
+2025-04-29 01:54:41.420 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-29 01:54:41.420 [warning] [Model][traverseWorkspaceFolder] Unable to read workspace folder '/home/coder/project/PythonMCP': Error: ENOENT: no such file or directory, scandir '/home/coder/project/PythonMCP'
+2025-04-29 01:54:41.420 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/coder/project/PythonMCP". Error:Error: ENOENT: no such file or directory, realpath '/home/coder/project/PythonMCP'
+2025-04-29 01:54:41.422 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

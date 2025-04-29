@@ -1,0 +1,40 @@
+2025-04-26 04:41:01.223 [info] 
+
+
+
+
+2025-04-26 04:41:01.241 [info] Extension host agent started.
+2025-04-26 04:41:01.318 [info] Started initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+2025-04-26 04:41:01.366 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+2025-04-26 04:41:12.262 [info] [172.23.0.1][98914608][ManagementConnection] New connection established.
+2025-04-26 04:41:13.521 [info] [172.23.0.1][a7858142][ExtensionHostConnection] New connection established.
+2025-04-26 04:41:13.734 [info] [172.23.0.1][a7858142][ExtensionHostConnection] <969> Launched Extension Host Process.
+2025-04-26 04:43:04.160 [info] [172.23.0.1][98914608][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-26 04:43:04.269 [info] [172.23.0.1][a7858142][ExtensionHostConnection] <969> Extension Host Process exited with code: 0, signal: null.
+2025-04-26 04:43:05.559 [info] [172.23.0.1][3a27d1bb][ManagementConnection] New connection established.
+2025-04-26 04:43:06.341 [info] [172.23.0.1][68058ed2][ExtensionHostConnection] New connection established.
+2025-04-26 04:43:06.364 [info] [172.23.0.1][68058ed2][ExtensionHostConnection] <2786> Launched Extension Host Process.
+2025-04-26 04:43:25.887 [info] Getting Manifest... ms-python.python
+2025-04-26 04:43:27.243 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/coder/.local/share/code-server/extensions/extensions.json","external":"file:///home/coder/.local/share/code-server/extensions/extensions.json","path":"/home/coder/.local/share/code-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-16T22:22:02.429Z"}}
+2025-04-26 04:43:27.588 [info] Getting Manifest... ms-python.debugpy
+2025-04-26 04:43:27.915 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/coder/.local/share/code-server/extensions/extensions.json","external":"file:///home/coder/.local/share/code-server/extensions/extensions.json","path":"/home/coder/.local/share/code-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-16T22:22:02.429Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-04-26 04:43:46.230 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-server/lib/vscode/out/server-main.js
+2025-04-26 04:43:46.230 [info] Extension signature verification is not done: ms-python.python
+2025-04-26 04:43:50.870 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-server/lib/vscode/out/server-main.js
+2025-04-26 04:43:50.871 [info] Extension signature verification is not done: ms-python.debugpy
+2025-04-26 04:43:56.685 [info] Extracted extension to file:///home/coder/.local/share/code-server/extensions/ms-python.debugpy-2025.6.0-linux-x64: ms-python.debugpy
+2025-04-26 04:43:56.859 [info] Renamed to /home/coder/.local/share/code-server/extensions/ms-python.debugpy-2025.6.0-linux-x64
+2025-04-26 04:44:20.098 [info] Extracted extension to file:///home/coder/.local/share/code-server/extensions/ms-python.python-2025.4.0-universal: ms-python.python
+2025-04-26 04:44:21.114 [info] Renamed to /home/coder/.local/share/code-server/extensions/ms-python.python-2025.4.0-universal
+2025-04-26 04:44:21.189 [info] Extension installed successfully: ms-python.debugpy file:///home/coder/.local/share/code-server/extensions/extensions.json
+2025-04-26 04:44:21.189 [info] Extension installed successfully: ms-python.python file:///home/coder/.local/share/code-server/extensions/extensions.json
+2025-04-26 04:45:58.630 [info] [172.23.0.1][3a27d1bb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-26 04:45:58.746 [info] [172.23.0.1][68058ed2][ExtensionHostConnection] <2786> Extension Host Process exited with code: 0, signal: null.
+2025-04-26 04:45:59.870 [info] [172.23.0.1][76f599e2][ManagementConnection] New connection established.
+2025-04-26 04:46:00.676 [info] [172.23.0.1][88db1400][ExtensionHostConnection] New connection established.
+2025-04-26 04:46:00.685 [info] [172.23.0.1][88db1400][ExtensionHostConnection] <3874> Launched Extension Host Process.
+2025-04-26 04:47:32.670 [info] [172.23.0.1][76f599e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-26 04:47:32.805 [info] [172.23.0.1][88db1400][ExtensionHostConnection] <3874> Extension Host Process exited with code: 0, signal: null.
+2025-04-26 04:47:33.989 [info] [172.23.0.1][54b83908][ManagementConnection] New connection established.
+2025-04-26 04:47:34.846 [info] [172.23.0.1][cec1b48b][ExtensionHostConnection] New connection established.
+2025-04-26 04:47:34.885 [info] [172.23.0.1][cec1b48b][ExtensionHostConnection] <4626> Launched Extension Host Process.

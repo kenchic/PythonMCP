@@ -1,0 +1,155 @@
+[2025-04-26T04:40:37.411Z] info  code-server 4.99.3 c36b2d3edd1cc8db7cfc49f5bc55711e7c5ac928
+[2025-04-26T04:40:37.412Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-04-26T04:40:37.428Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-04-26T04:40:37.428Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-04-26T04:40:37.428Z] info    - Authentication is enabled
+[2025-04-26T04:40:37.428Z] info      - Using password from $PASSWORD
+[2025-04-26T04:40:37.428Z] info    - Not serving HTTPS
+[2025-04-26T04:40:37.428Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[04:41:01] 
+
+
+
+
+[04:41:01] Extension host agent started.
+[04:41:01] Started initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[04:41:01] Completed initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[04:41:12] [172.23.0.1][98914608][ManagementConnection] New connection established.
+[04:41:13] [172.23.0.1][a7858142][ExtensionHostConnection] New connection established.
+[04:41:13] [172.23.0.1][a7858142][ExtensionHostConnection] <969> Launched Extension Host Process.
+[04:43:04] [172.23.0.1][98914608][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:43:04] [172.23.0.1][a7858142][ExtensionHostConnection] <969> Extension Host Process exited with code: 0, signal: null.
+[04:43:05] [172.23.0.1][3a27d1bb][ManagementConnection] New connection established.
+[04:43:06] [172.23.0.1][68058ed2][ExtensionHostConnection] New connection established.
+[04:43:06] [172.23.0.1][68058ed2][ExtensionHostConnection] <2786> Launched Extension Host Process.
+[04:43:25] Getting Manifest... ms-python.python
+[04:43:27] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isApplicationScoped: false,
+  profileLocation: pr {
+    scheme: 'file',
+    authority: '',
+    path: '/home/coder/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/coder/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/coder/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.99.3', date: '2025-04-16T22:22:02.429Z' }
+}
+[04:43:27] Getting Manifest... ms-python.debugpy
+[04:43:27] Installing extension: ms-python.debugpy {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isApplicationScoped: false,
+  profileLocation: pr {
+    scheme: 'file',
+    authority: '',
+    path: '/home/coder/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/coder/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/coder/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.99.3', date: '2025-04-16T22:22:02.429Z' },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[04:43:46] Extension signature verification is not done: ms-python.python
+[04:43:50] Extension signature verification is not done: ms-python.debugpy
+[04:43:56] Extracted extension to file:///home/coder/.local/share/code-server/extensions/ms-python.debugpy-2025.6.0-linux-x64: ms-python.debugpy
+[04:43:56] Renamed to /home/coder/.local/share/code-server/extensions/ms-python.debugpy-2025.6.0-linux-x64
+[04:44:20] Extracted extension to file:///home/coder/.local/share/code-server/extensions/ms-python.python-2025.4.0-universal: ms-python.python
+[04:44:21] Renamed to /home/coder/.local/share/code-server/extensions/ms-python.python-2025.4.0-universal
+[04:44:21] Extension installed successfully: ms-python.debugpy file:///home/coder/.local/share/code-server/extensions/extensions.json
+[04:44:21] Extension installed successfully: ms-python.python file:///home/coder/.local/share/code-server/extensions/extensions.json
+[04:45:58] [172.23.0.1][3a27d1bb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:45:58] [172.23.0.1][68058ed2][ExtensionHostConnection] <2786> Extension Host Process exited with code: 0, signal: null.
+[04:45:59] [172.23.0.1][76f599e2][ManagementConnection] New connection established.
+[04:46:00] [172.23.0.1][88db1400][ExtensionHostConnection] New connection established.
+[04:46:00] [172.23.0.1][88db1400][ExtensionHostConnection] <3874> Launched Extension Host Process.
+[04:47:32] [172.23.0.1][76f599e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:47:32] [172.23.0.1][88db1400][ExtensionHostConnection] <3874> Extension Host Process exited with code: 0, signal: null.
+[04:47:33] [172.23.0.1][54b83908][ManagementConnection] New connection established.
+[04:47:34] [172.23.0.1][cec1b48b][ExtensionHostConnection] New connection established.
+[04:47:34] [172.23.0.1][cec1b48b][ExtensionHostConnection] <4626> Launched Extension Host Process.
+[2025-04-26T05:22:17.831Z] info  code-server 4.99.3 c36b2d3edd1cc8db7cfc49f5bc55711e7c5ac928
+[2025-04-26T05:22:17.833Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-04-26T05:22:17.852Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-04-26T05:22:17.853Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-04-26T05:22:17.853Z] info    - Authentication is enabled
+[2025-04-26T05:22:17.853Z] info      - Using password from $PASSWORD
+[2025-04-26T05:22:17.853Z] info    - Not serving HTTPS
+[2025-04-26T05:22:17.853Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[05:22:19] 
+
+
+
+
+[05:22:19] Extension host agent started.
+[05:22:21] [172.23.0.1][8fc8369f][ManagementConnection] New connection established.
+[05:22:22] [172.23.0.1][e9f236e0][ExtensionHostConnection] New connection established.
+[05:22:22] [172.23.0.1][e9f236e0][ExtensionHostConnection] <543> Launched Extension Host Process.
+[05:23:54] [172.23.0.1][8fc8369f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:23:54] [172.23.0.1][e9f236e0][ExtensionHostConnection] <543> Extension Host Process exited with code: 0, signal: null.
+[05:23:55] [172.23.0.1][86343c6c][ManagementConnection] New connection established.
+[05:23:56] [172.23.0.1][54c9e3d6][ExtensionHostConnection] New connection established.
+[05:23:56] [172.23.0.1][54c9e3d6][ExtensionHostConnection] <1367> Launched Extension Host Process.
+[06:03:58] [172.23.0.1][86343c6c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:03:58] [172.23.0.1][54c9e3d6][ExtensionHostConnection] <1367> Extension Host Process exited with code: 0, signal: null.
+[06:04:22] [172.23.0.1][b9b4d08f][ManagementConnection] New connection established.
+[06:04:23] [172.23.0.1][972b0a62][ExtensionHostConnection] New connection established.
+[06:04:23] [172.23.0.1][972b0a62][ExtensionHostConnection] <12417> Launched Extension Host Process.
+[06:09:10] [172.23.0.1][b9b4d08f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:09:10] [172.23.0.1][972b0a62][ExtensionHostConnection] <12417> Extension Host Process exited with code: 0, signal: null.
+[2025-04-28T13:43:55.803Z] info  code-server 4.99.3 c36b2d3edd1cc8db7cfc49f5bc55711e7c5ac928
+[2025-04-28T13:43:55.865Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-04-28T13:43:55.913Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-04-28T13:43:55.913Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-04-28T13:43:55.913Z] info    - Authentication is enabled
+[2025-04-28T13:43:55.913Z] info      - Using password from $PASSWORD
+[2025-04-28T13:43:55.913Z] info    - Not serving HTTPS
+[2025-04-28T13:43:55.913Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[13:43:57] 
+
+
+
+
+[13:43:57] Extension host agent started.
+[13:44:34] [172.23.0.1][c5ccd08c][ManagementConnection] New connection established.
+[13:44:36] [172.23.0.1][c9bdfae7][ExtensionHostConnection] New connection established.
+[13:44:36] [172.23.0.1][c9bdfae7][ExtensionHostConnection] <531> Launched Extension Host Process.
+[2025-04-29T01:53:57.550Z] info  code-server 4.99.3 c36b2d3edd1cc8db7cfc49f5bc55711e7c5ac928
+[2025-04-29T01:53:57.557Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-04-29T01:53:57.620Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-04-29T01:53:57.620Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-04-29T01:53:57.620Z] info    - Authentication is enabled
+[2025-04-29T01:53:57.620Z] info      - Using password from $PASSWORD
+[2025-04-29T01:53:57.620Z] info    - Not serving HTTPS
+[2025-04-29T01:53:57.620Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[01:54:28] 
+
+
+
+
+[01:54:29] Extension host agent started.
+[01:54:33] [172.23.0.1][a9f119a2][ManagementConnection] New connection established.
+[01:54:35] [172.23.0.1][76d489a1][ExtensionHostConnection] New connection established.
+[01:54:35] [172.23.0.1][76d489a1][ExtensionHostConnection] <915> Launched Extension Host Process.
+[01:54:43] [172.23.0.1][a9f119a2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:54:44] [172.23.0.1][76d489a1][ExtensionHostConnection] <915> Extension Host Process exited with code: 0, signal: null.
+[01:54:46] [172.23.0.1][afdcb10a][ManagementConnection] New connection established.
+[01:54:47] [172.23.0.1][aeb7c43e][ExtensionHostConnection] New connection established.
+[01:54:48] [172.23.0.1][aeb7c43e][ExtensionHostConnection] <1878> Launched Extension Host Process.
+[01:58:05] [172.23.0.1][afdcb10a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:58:05] [172.23.0.1][aeb7c43e][ExtensionHostConnection] <1878> Extension Host Process exited with code: 0, signal: null.
+[01:58:07] [172.23.0.1][896c3fff][ManagementConnection] New connection established.
+[01:58:09] [172.23.0.1][d69b28fd][ExtensionHostConnection] New connection established.
+[01:58:09] [172.23.0.1][d69b28fd][ExtensionHostConnection] <3274> Launched Extension Host Process.
+[02:11:33] [172.23.0.1][896c3fff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[02:11:33] [172.23.0.1][d69b28fd][ExtensionHostConnection] <3274> Extension Host Process exited with code: 0, signal: null.
+[02:11:35] [172.23.0.1][d97655db][ManagementConnection] New connection established.
+[02:11:36] [172.23.0.1][45032972][ExtensionHostConnection] New connection established.
+[02:11:36] [172.23.0.1][45032972][ExtensionHostConnection] <10551> Launched Extension Host Process.

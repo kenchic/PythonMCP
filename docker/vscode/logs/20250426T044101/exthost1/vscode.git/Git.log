@@ -1,0 +1,51 @@
+2025-04-26 04:41:16.487 [info] [main] Log level: Info
+2025-04-26 04:41:16.487 [info] [main] Validating found git in: "git"
+2025-04-26 04:41:16.487 [info] [main] Using git "2.39.5" from "git"
+2025-04-26 04:41:16.488 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-26 04:41:16.488 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-26 04:41:16.488 [info] fatal: not a git repository (or any parent up to mount point /home/coder)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-26 04:41:16.488 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-26 04:41:23.956 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-26 04:41:23.957 [info] fatal: not a git repository (or any parent up to mount point /home/coder)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-26 04:41:35.004 [info] > git init -b main [146ms]
+2025-04-26 04:41:35.013 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-26 04:41:35.013 [info] fatal: detected dubious ownership in repository at '/home/coder/project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/coder/project
+2025-04-26 04:41:35.455 [info] > git rev-parse --show-toplevel [8ms]
+2025-04-26 04:41:35.455 [info] fatal: detected dubious ownership in repository at '/home/coder/project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/coder/project
+2025-04-26 04:41:40.187 [info] > git config --global --add safe.directory /home/coder/project [1ms]
+2025-04-26 04:41:40.208 [info] > git rev-parse --show-toplevel [18ms]
+2025-04-26 04:41:40.224 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2025-04-26 04:41:40.236 [info] [Model][openRepository] Opened repository: /home/coder/project
+2025-04-26 04:41:40.244 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-26 04:41:40.256 [info] > git config --get commit.template [13ms]
+2025-04-26 04:41:40.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-04-26 04:41:40.266 [warning] [Git][getBranch] No such branch: main
+2025-04-26 04:41:40.302 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2025-04-26 04:41:40.310 [info] > git status -z -uall [40ms]
+2025-04-26 04:41:40.327 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-26 04:41:40.337 [info] > git config --get commit.template [13ms]
+2025-04-26 04:41:40.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-04-26 04:41:40.341 [warning] [Git][getBranch] No such branch: main
+2025-04-26 04:41:40.342 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-04-26 04:41:40.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-04-26 04:41:40.349 [warning] [Git][getBranch] No such branch: main
+2025-04-26 04:41:40.375 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-04-26 04:41:40.403 [info] > git status -z -uall [52ms]
+2025-04-26 04:41:40.548 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [58ms]
+2025-04-26 04:41:40.549 [info] fatal: bad revision 'refs/heads/main'
+2025-04-26 04:41:40.549 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-04-26 04:41:48.026 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [41ms]
+2025-04-26 04:41:50.881 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [37ms]

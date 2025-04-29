@@ -1,0 +1,244 @@
+2025-04-29 01:58:18.372 [info] [main] Log level: Info
+2025-04-29 01:58:18.388 [info] [main] Validating found git in: "git"
+2025-04-29 01:58:18.403 [info] [main] Using git "2.39.5" from "git"
+2025-04-29 01:58:18.435 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-29 01:58:18.454 [info] > git rev-parse --show-toplevel [799ms]
+2025-04-29 01:58:18.472 [info] > git rev-parse --git-dir --git-common-dir [352ms]
+2025-04-29 01:58:18.489 [info] [Model][openRepository] Opened repository: /home/coder/project/PythonMCP
+2025-04-29 01:58:18.505 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-29 01:58:18.759 [info] > git config --get commit.template [1078ms]
+2025-04-29 01:58:19.631 [info] > git check-ignore -v -z --stdin [922ms]
+2025-04-29 01:58:19.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [907ms]
+2025-04-29 01:58:19.851 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/main'
+2025-04-29 01:58:20.204 [info] > git rev-parse refs/remotes/origin/main [353ms]
+2025-04-29 01:58:21.678 [info] > git ls-files --stage -- README.md [896ms]
+2025-04-29 01:58:21.694 [info] > git check-ignore -v -z --stdin [842ms]
+2025-04-29 01:58:22.452 [info] > git show --textconv :README.md [1682ms]
+2025-04-29 01:58:22.718 [info] > git cat-file -s 332740ceaa70b53b4161b3788c404f8004ebc609 [1026ms]
+2025-04-29 01:58:22.796 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2526ms]
+2025-04-29 01:58:23.287 [info] > git status -z -uall [3022ms]
+2025-04-29 01:58:23.727 [info] > git blame --root --incremental 0c7b8de9198f23282b63867eeeae943f6fabf885 -- README.md [835ms]
+2025-04-29 01:58:23.754 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [596ms]
+2025-04-29 01:58:24.684 [info] > git config --get commit.template [886ms]
+2025-04-29 01:58:25.923 [info] > git fetch [8389ms]
+2025-04-29 01:58:26.062 [info] > git config --get commit.template [106ms]
+2025-04-29 01:58:26.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2431ms]
+2025-04-29 01:58:26.638 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/main'
+2025-04-29 01:58:26.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3039ms]
+2025-04-29 01:58:26.941 [info] > git rev-parse refs/remotes/origin/main [304ms]
+2025-04-29 01:58:26.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [980ms]
+2025-04-29 01:58:27.002 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/main'
+2025-04-29 01:58:27.006 [info] > git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads [400ms]
+2025-04-29 01:58:27.024 [info] > git rev-parse refs/remotes/origin/main [22ms]
+2025-04-29 01:58:27.121 [info] > git config --get --local branch.main.vscode-merge-base [367ms]
+2025-04-29 01:58:27.138 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-29 01:58:27.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [808ms]
+2025-04-29 01:58:27.847 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [729ms]
+2025-04-29 01:58:28.072 [info] > git reflog main --grep-reflog=branch: Created from *. [902ms]
+2025-04-29 01:58:28.347 [info] > git config --get --local branch.main.vscode-merge-base [500ms]
+2025-04-29 01:58:28.348 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-29 01:58:28.383 [info] > git status -z -uall [1268ms]
+2025-04-29 01:58:28.607 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [512ms]
+2025-04-29 01:58:28.828 [info] > git reflog main --grep-reflog=branch: Created from *. [477ms]
+2025-04-29 01:58:28.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [224ms]
+2025-04-29 01:58:28.880 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [485ms]
+2025-04-29 01:58:28.917 [info] > git config --get --local branch.main.vscode-merge-base [30ms]
+2025-04-29 01:58:28.918 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-29 01:58:28.922 [info] > git checkout -q --track origin/1-initial [1906ms]
+2025-04-29 01:58:28.925 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [94ms]
+2025-04-29 01:58:28.960 [info] > git config --add --local branch.main.vscode-merge-base origin/main [93ms]
+2025-04-29 01:58:29.030 [info] > git config --get commit.template [90ms]
+2025-04-29 01:58:29.067 [info] > git config --get commit.template [90ms]
+2025-04-29 01:58:29.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [187ms]
+2025-04-29 01:58:29.206 [info] > git config --add --local branch.main.vscode-merge-base origin/main [79ms]
+2025-04-29 01:58:29.215 [info] > git reflog main --grep-reflog=branch: Created from *. [293ms]
+2025-04-29 01:58:29.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [277ms]
+2025-04-29 01:58:29.228 [info] > git config --get commit.template [13ms]
+2025-04-29 01:58:29.236 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 01:58:29.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [262ms]
+2025-04-29 01:58:29.249 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 01:58:29.297 [info] > git rev-parse refs/remotes/origin/1-initial [60ms]
+2025-04-29 01:58:29.320 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [102ms]
+2025-04-29 01:58:29.334 [info] > git rev-parse refs/remotes/origin/1-initial [85ms]
+2025-04-29 01:58:29.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [175ms]
+2025-04-29 01:58:29.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [316ms]
+2025-04-29 01:58:29.548 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 01:58:29.564 [info] > git merge-base refs/heads/main refs/remotes/origin/1-initial [215ms]
+2025-04-29 01:58:29.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [300ms]
+2025-04-29 01:58:29.613 [info] > git config --add --local branch.main.vscode-merge-base origin/main [108ms]
+2025-04-29 01:58:29.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [287ms]
+2025-04-29 01:58:29.649 [info] > git config --get --local branch.1-initial.vscode-merge-base [37ms]
+2025-04-29 01:58:29.650 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-29 01:58:29.656 [info] > git rev-parse refs/remotes/origin/1-initial [108ms]
+2025-04-29 01:58:29.676 [info] > git config --get commit.template [43ms]
+2025-04-29 01:58:29.689 [info] > git config --get --local branch.1-initial.vscode-merge-base [59ms]
+2025-04-29 01:58:29.690 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-29 01:58:30.014 [info] > git diff --name-status -z --diff-filter=ADMR 0c7b8de9198f23282b63867eeeae943f6fabf885...refs/remotes/origin/1-initial [445ms]
+2025-04-29 01:58:30.134 [info] > git merge-base refs/heads/main refs/remotes/origin/1-initial [459ms]
+2025-04-29 01:58:30.219 [info] > git merge-base refs/heads/1-initial refs/remotes/origin/1-initial [545ms]
+2025-04-29 01:58:30.259 [info] > git reflog 1-initial --grep-reflog=branch: Created from *. [606ms]
+2025-04-29 01:58:30.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [632ms]
+2025-04-29 01:58:30.284 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 01:58:30.340 [info] > git reflog 1-initial --grep-reflog=branch: Created from *. [647ms]
+2025-04-29 01:58:30.344 [info] > git rev-parse refs/remotes/origin/1-initial [61ms]
+2025-04-29 01:58:30.426 [info] > git diff --name-status -z --diff-filter=ADMR 0c7b8de9198f23282b63867eeeae943f6fabf885...refs/remotes/origin/1-initial [274ms]
+2025-04-29 01:58:30.433 [info] > git diff --name-status -z --diff-filter=ADMR 85182e72353e5fb0ea8dbab81114b8d7e773e4be...refs/remotes/origin/1-initial [207ms]
+2025-04-29 01:58:30.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/1-initial refs/remotes/origin/1-initial [182ms]
+2025-04-29 01:58:30.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/1-initial refs/remotes/origin/1-initial [123ms]
+2025-04-29 01:58:30.496 [info] > git config --add --local branch.1-initial.vscode-merge-base origin/1-initial [24ms]
+2025-04-29 01:58:30.497 [info] error: could not lock config file .git/config: File exists
+2025-04-29 01:58:30.497 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-29 01:58:30.499 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [148ms] (cancelled)
+2025-04-29 01:58:30.516 [info] > git status -z -uall [168ms] (cancelled)
+2025-04-29 01:58:30.553 [info] > git config --add --local branch.1-initial.vscode-merge-base origin/1-initial [105ms]
+2025-04-29 01:58:30.591 [info] > git config --get commit.template [75ms]
+2025-04-29 01:58:30.596 [info] > git config --get commit.template [26ms]
+2025-04-29 01:58:30.651 [info] > git merge-base refs/heads/main refs/remotes/origin/1-initial [147ms]
+2025-04-29 01:58:30.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [128ms]
+2025-04-29 01:58:30.710 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 01:58:30.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [193ms]
+2025-04-29 01:58:30.721 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 01:58:30.791 [info] > git rev-parse refs/remotes/origin/1-initial [81ms]
+2025-04-29 01:58:30.797 [info] > git rev-parse refs/remotes/origin/1-initial [77ms]
+2025-04-29 01:58:30.810 [info] > git diff --name-status -z --diff-filter=ADMR 0c7b8de9198f23282b63867eeeae943f6fabf885...refs/remotes/origin/1-initial [156ms]
+2025-04-29 01:58:30.897 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [101ms]
+2025-04-29 01:58:30.991 [info] > git status -z -uall [197ms]
+2025-04-29 01:58:31.128 [info] > git blame --root --incremental 85182e72353e5fb0ea8dbab81114b8d7e773e4be -- README.md [131ms]
+2025-04-29 01:58:31.268 [info] > git merge-base refs/heads/1-initial refs/remotes/origin/1-initial [265ms]
+2025-04-29 01:58:31.276 [info] > git merge-base refs/heads/1-initial refs/remotes/origin/1-initial [276ms]
+2025-04-29 01:58:31.381 [info] > git diff --name-status -z --diff-filter=ADMR 85182e72353e5fb0ea8dbab81114b8d7e773e4be...refs/remotes/origin/1-initial [104ms]
+2025-04-29 01:58:31.381 [info] > git diff --name-status -z --diff-filter=ADMR 85182e72353e5fb0ea8dbab81114b8d7e773e4be...refs/remotes/origin/1-initial [101ms]
+2025-04-29 01:59:00.499 [info] > git check-ignore -v -z --stdin [33ms]
+2025-04-29 02:00:21.004 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [229ms]
+2025-04-29 02:00:56.405 [info] > git ls-files --stage -- docker/Dockerfile [31ms]
+2025-04-29 02:00:56.420 [info] > git show --textconv :docker/Dockerfile [51ms]
+2025-04-29 02:00:56.452 [info] > git hash-object -t tree /dev/null [43ms]
+2025-04-29 02:00:56.452 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/docker/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2FDockerfile%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:00:56.455 [info] > git hash-object -t tree /dev/null [28ms]
+2025-04-29 02:00:56.455 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/docker/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2FDockerfile%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:00:56.639 [info] > git check-ignore -v -z --stdin [35ms]
+2025-04-29 02:01:09.623 [info] > git ls-files --stage -- docker/docker-compose.yml [50ms]
+2025-04-29 02:01:09.624 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/docker/docker-compose.yml.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2Fdocker-compose.yml%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:01:09.625 [info] > git show --textconv :docker/docker-compose.yml [55ms]
+2025-04-29 02:01:09.626 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/docker/docker-compose.yml.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2Fdocker-compose.yml%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:01:09.827 [info] > git check-ignore -v -z --stdin [44ms]
+2025-04-29 02:01:41.603 [info] > git blame --root --incremental 85182e72353e5fb0ea8dbab81114b8d7e773e4be -- docker/docker-compose.yml [578ms]
+2025-04-29 02:01:41.604 [info] fatal: no such path docker/docker-compose.yml in 85182e72353e5fb0ea8dbab81114b8d7e773e4be
+2025-04-29 02:01:42.637 [info] > git fetch [2209ms]
+2025-04-29 02:01:42.659 [info] > git config --get commit.template [15ms]
+2025-04-29 02:01:42.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [93ms]
+2025-04-29 02:01:42.758 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 02:01:43.149 [info] > git rev-parse refs/remotes/origin/1-initial [391ms]
+2025-04-29 02:01:43.221 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [66ms]
+2025-04-29 02:01:43.288 [info] > git status -z -uall [136ms]
+2025-04-29 02:02:13.274 [info] > git ls-files --stage -- README.md [160ms]
+2025-04-29 02:02:13.330 [info] > git show --textconv :README.md [220ms]
+2025-04-29 02:02:13.340 [info] > git cat-file -s d6781d9acd1be07c3dd61304ba737ac2b3d775e3 [62ms]
+2025-04-29 02:02:16.244 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [140ms]
+2025-04-29 02:02:19.930 [info] > git add -A -- . [159ms]
+2025-04-29 02:02:20.058 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [124ms]
+2025-04-29 02:02:20.058 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-04-29 02:02:20.104 [info] > git config --get-all user.name [43ms]
+2025-04-29 02:02:20.124 [info] > git config --get commit.template [16ms]
+2025-04-29 02:02:20.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [112ms]
+2025-04-29 02:02:20.230 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 02:02:20.274 [info] > git rev-parse refs/remotes/origin/1-initial [44ms]
+2025-04-29 02:02:20.347 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [67ms]
+2025-04-29 02:02:20.368 [info] > git status -z -uall [92ms]
+2025-04-29 02:04:44.114 [info] > git fetch [823ms]
+2025-04-29 02:04:44.149 [info] > git config --get commit.template [30ms]
+2025-04-29 02:04:44.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [114ms]
+2025-04-29 02:04:44.248 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 02:04:44.281 [info] > git rev-parse refs/remotes/origin/1-initial [33ms]
+2025-04-29 02:04:44.365 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [77ms]
+2025-04-29 02:04:44.396 [info] > git status -z -uall [112ms]
+2025-04-29 02:05:09.482 [info] > git ls-files --stage -- docker/Dockerfile [100ms]
+2025-04-29 02:05:09.554 [info] > git cat-file -s 5ade5d686c7261b81f2997bee5ad79f255aff7e4 [68ms]
+2025-04-29 02:05:09.558 [info] > git show --textconv :docker/Dockerfile [178ms]
+2025-04-29 02:05:09.915 [info] > git check-ignore -v -z --stdin [27ms]
+2025-04-29 02:05:10.532 [info] > git blame --root --incremental 85182e72353e5fb0ea8dbab81114b8d7e773e4be -- docker/Dockerfile [95ms]
+2025-04-29 02:05:10.533 [info] fatal: no such path docker/Dockerfile in 85182e72353e5fb0ea8dbab81114b8d7e773e4be
+2025-04-29 02:05:15.303 [info] > git ls-files --stage -- docker/Dockerfile [89ms]
+2025-04-29 02:05:15.368 [info] > git cat-file -s 5ade5d686c7261b81f2997bee5ad79f255aff7e4 [62ms]
+2025-04-29 02:05:27.348 [info] > git ls-files --stage -- docker/docker-compose.yml [43ms]
+2025-04-29 02:05:27.387 [info] > git cat-file -s 66b94f042cce6e5b141f7f4581ac93d8c23215cf [36ms]
+2025-04-29 02:05:27.388 [info] > git show --textconv :docker/docker-compose.yml [88ms]
+2025-04-29 02:05:27.838 [info] > git check-ignore -v -z --stdin [28ms]
+2025-04-29 02:05:30.317 [info] > git ls-files --stage -- docker/Dockerfile [38ms]
+2025-04-29 02:05:30.352 [info] > git show --textconv :docker/Dockerfile [78ms]
+2025-04-29 02:05:30.366 [info] > git cat-file -s 5ade5d686c7261b81f2997bee5ad79f255aff7e4 [45ms]
+2025-04-29 02:05:34.197 [info] > git ls-files --stage -- docker/Dockerfile [29ms]
+2025-04-29 02:05:34.256 [info] > git ls-tree -l HEAD -- docker/Dockerfile [85ms]
+2025-04-29 02:05:34.257 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/docker/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-29 02:05:34.267 [info] > git cat-file -s 5ade5d686c7261b81f2997bee5ad79f255aff7e4 [67ms]
+2025-04-29 02:05:34.272 [info] > git show --textconv :docker/Dockerfile [111ms]
+2025-04-29 02:05:34.274 [info] > git show --textconv HEAD:docker/Dockerfile [109ms]
+2025-04-29 02:05:34.279 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/docker/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-29 02:05:55.291 [info] > git ls-files --stage -- docker/Dockerfile [75ms]
+2025-04-29 02:05:55.368 [info] > git cat-file -s 5ade5d686c7261b81f2997bee5ad79f255aff7e4 [74ms]
+2025-04-29 02:05:57.170 [info] > git ls-files --stage -- docker/Dockerfile [43ms]
+2025-04-29 02:05:57.289 [info] > git ls-tree -l HEAD -- docker/Dockerfile [159ms]
+2025-04-29 02:05:57.306 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/docker/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-29 02:05:57.347 [info] > git cat-file -s 5ade5d686c7261b81f2997bee5ad79f255aff7e4 [173ms]
+2025-04-29 02:05:57.356 [info] > git show --textconv :docker/Dockerfile [236ms]
+2025-04-29 02:05:57.404 [info] > git show --textconv HEAD:docker/Dockerfile [279ms]
+2025-04-29 02:05:57.404 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/docker/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2Fdocker%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-29 02:06:00.527 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [309ms]
+2025-04-29 02:06:00.575 [info] > git config --get commit.template [42ms]
+2025-04-29 02:06:00.616 [info] > git config --get commit.template [30ms]
+2025-04-29 02:06:00.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [111ms]
+2025-04-29 02:06:00.708 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 02:06:00.738 [info] > git rev-parse refs/remotes/origin/1-initial [30ms]
+2025-04-29 02:06:00.832 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [87ms]
+2025-04-29 02:06:00.875 [info] > git status -z -uall [134ms]
+2025-04-29 02:06:01.055 [info] > git config --get commit.template [114ms]
+2025-04-29 02:06:01.077 [info] > git merge-base refs/heads/1-initial refs/remotes/origin/1-initial [188ms]
+2025-04-29 02:06:01.147 [info] > git blame --root --incremental fd89f58af533cab975cd9db99136ba93854d84e6 -- docker/Dockerfile [264ms]
+2025-04-29 02:06:01.173 [info] > git diff --name-status -z --diff-filter=ADMR 85182e72353e5fb0ea8dbab81114b8d7e773e4be...refs/remotes/origin/1-initial [93ms]
+2025-04-29 02:06:01.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/1-initial refs/remotes/1-initial [253ms]
+2025-04-29 02:06:01.213 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [283ms]
+2025-04-29 02:06:01.251 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/coder/project/PythonMCP/.git/refs/remotes/origin/1-initial'
+2025-04-29 02:06:01.332 [info] > git rev-parse refs/remotes/origin/1-initial [80ms]
+2025-04-29 02:06:01.443 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [104ms]
+2025-04-29 02:06:01.506 [info] > git status -z -uall [170ms]
+2025-04-29 02:06:37.932 [info] > git add -A -- . [128ms]
+2025-04-29 02:06:38.797 [info] > git show --textconv :.git/COMMIT_EDITMSG [126ms]
+2025-04-29 02:06:38.825 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [150ms]
+2025-04-29 02:06:38.829 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:06:38.839 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:06:39.109 [info] > git check-ignore -v -z --stdin [59ms]
+2025-04-29 02:07:52.529 [info] > git ls-files --stage -- docker/Dockerfile [136ms]
+2025-04-29 02:07:52.896 [info] > git cat-file -s ced355271c3ecce405827825ef80b853f12d2414 [363ms]
+2025-04-29 02:07:53.029 [info] > git show --textconv :docker/Dockerfile [641ms]
+2025-04-29 02:07:53.441 [info] > git show --textconv :.git/COMMIT_EDITMSG [31ms]
+2025-04-29 02:07:53.442 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:07:53.459 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [46ms]
+2025-04-29 02:07:53.462 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:07:58.080 [info] > git blame --root --incremental fd89f58af533cab975cd9db99136ba93854d84e6 -- .git/COMMIT_EDITMSG [54ms]
+2025-04-29 02:07:58.080 [info] fatal: no such path .git/COMMIT_EDITMSG in fd89f58af533cab975cd9db99136ba93854d84e6
+2025-04-29 02:08:15.047 [info] > git ls-tree -l HEAD -- docker/Dockerfile [129ms]
+2025-04-29 02:08:15.111 [info] > git show --textconv HEAD:docker/Dockerfile [196ms]
+2025-04-29 02:08:18.632 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [36ms]
+2025-04-29 02:08:18.635 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:08:18.642 [info] > git show --textconv :.git/COMMIT_EDITMSG [49ms]
+2025-04-29 02:08:18.644 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:10:38.452 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [490ms]
+2025-04-29 02:11:11.601 [info] > git ls-tree -l HEAD -- docker/Dockerfile [204ms]
+2025-04-29 02:11:11.736 [info] > git show --textconv HEAD:docker/Dockerfile [342ms]
+2025-04-29 02:11:22.753 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [280ms]
+2025-04-29 02:11:22.754 [warning] [GitFileSystemProvider][stat] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:11:22.767 [info] > git show --textconv :.git/COMMIT_EDITMSG [305ms]
+2025-04-29 02:11:22.769 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/coder/project/PythonMCP/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fcoder%2Fproject%2FPythonMCP%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-29 02:11:31.609 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [153ms]
