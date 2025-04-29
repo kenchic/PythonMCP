@@ -28,7 +28,7 @@ PythonMCP/
 ```
 
 - **Dockerfile** y **docker-compose.yml**  
-  Se encuentran directamente en la raíz del proyecto. Aquí defines cómo se construye el contenedor y cómo se levantan los servicios, asegurando que cualquier persona pueda clonar el repositorio y ejecutar el entorno con un solo comando.
+  Se encuentran en la carpeta docker del repositorio y deben ir directamente en la raíz del proyecto de un equipo. Aquí defines cómo se construye el contenedor y cómo se levantan los servicios, asegurando que cualquier persona pueda clonar el repositorio y ejecutar el entorno con un solo comando.
 
 - **data/**  
   Es el directorio donde escribirás y almacenarás tu código fuente de Python y otros archivos del servidor MCP. Este folder se monta como un volumen en Docker, por lo que tus cambios quedan guardados incluso si eliminas o vuelves a crear los contenedores.
